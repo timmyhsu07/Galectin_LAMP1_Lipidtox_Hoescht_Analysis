@@ -38,7 +38,7 @@ This repository only includes the notebook. You need to create the local input a
 6. Install the notebook dependencies if needed:
 
    ```bash
-   pip install cellpose numpy pandas matplotlib scikit-image czifile scipy
+   pip install "cellpose<4" numpy pandas matplotlib scikit-image czifile scipy
    ```
 
 7. Open [M17D_4channel_analysis.ipynb](M17D_4channel_analysis.ipynb) and run the notebook top to bottom.
